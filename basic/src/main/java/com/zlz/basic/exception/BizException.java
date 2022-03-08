@@ -2,10 +2,12 @@ package com.zlz.basic.exception;
 
 /**
  * 业务异常
+ *
  * @author zhulinzhong
  * @version 1.0 CreateTime:2019/12/20 17:59
  */
 public class BizException extends RuntimeException {
+
     public BizException() {
     }
 

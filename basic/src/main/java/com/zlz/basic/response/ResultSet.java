@@ -28,12 +28,12 @@ public class ResultSet<T> implements Serializable {
      */
     private T entity;
 
-    private ResultSet(String message, Integer code) {
+    public ResultSet(String message, Integer code) {
         this.message = message;
         this.code = code;
     }
 
-    private ResultSet(String message, Integer code, T entity) {
+    public ResultSet(String message, Integer code, T entity) {
         this.message = message;
         this.code = code;
         this.entity = entity;
