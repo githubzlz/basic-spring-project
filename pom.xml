@@ -25,8 +25,8 @@
     <baseboot.version>2.1.1.RELEASE</baseboot.version>
     <mybatis-plus.version>3.2.0</mybatis-plus.version>
     <lombok.version>1.18.22</lombok.version>
-    <route.service.cilent.version>0.0.1-SNAPSHOT</route.service.cilent.version>
-    <route.client.version>0.0.1-SNAPSHOT</route.client.version>
+    <oauth.service.cilent.version>0.0.1-SNAPSHOT</oauth.service.cilent.version>
+    <oauth.client.version>0.0.1-SNAPSHOT</oauth.client.version>
     <fastjson.version>1.2.79</fastjson.version>
   </properties>
 
@@ -53,14 +53,14 @@
         <version>${lombok.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.zlz.route</groupId>
-        <artifactId>route.client</artifactId>
-        <version>${route.service.cilent.version}</version>
+        <groupId>com.zlz.oauth</groupId>
+        <artifactId>oauth.client</artifactId>
+        <version>${oauth.service.cilent.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.zlz.route</groupId>
-        <artifactId>route-controller-client-starter</artifactId>
-        <version>${route.client.version}</version>
+        <groupId>com.zlz.oauth</groupId>
+        <artifactId>oauth-client-starter</artifactId>
+        <version>${oauth.client.version}</version>
       </dependency>
       <dependency>
         <groupId>com.alibaba</groupId>
